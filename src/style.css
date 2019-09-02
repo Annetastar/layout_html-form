@@ -1,5 +1,10 @@
-label {
+.about_you {
   display: block;
+  margin-bottom: 10px;
+}
+
+.about_cats {
+  display: inline-block;
   margin-bottom: 10px;
 }
 
@@ -7,6 +12,6 @@ label {
   margin-bottom: 20px;
 }
 
-.box-form > label:last-child {
+.box-form > .about_you:last-child {
   margin-bottom: 0;
 }
